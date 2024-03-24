@@ -1,0 +1,209 @@
+{"tweets":
+[
+  {
+    "category": "android",
+    "text": "1. ES6 makes me feel like I'm coding in the future JavaScript"
+  },
+
+  {
+    "category": "android",
+    "text": "2. CSS Grid: Making layouts fun again. 💻 #WebDev"
+  },
+  {
+    "category": "android",
+    "text": "3. Flexbox: Because sometimes you just need things to flex. 💪 #CSS"
+  },
+  {
+    "category": "android",
+    "text": "4. Console.log() is my best friend and worst enemy. 🤖 #DevHumor"
+  },
+  {
+    "category": "android",
+    "text": "5. Coding is superpower. 💻⚡️ #CodeLife"
+  },
+  {
+    "category": "android",
+    "text": "6. Can't stop, won't stop coding. 💻 #DevLife"
+  },
+  {
+    "category": "android",
+    "text": "7. Making the web look good, one line of CSS at a time. 🎨 #WebDesign"
+  },
+  {
+    "category": "android",
+    "text": "8. Callback hell is real, but so is perseverance. 💪 #JavaScript"
+  },
+  {
+    "category": "android",
+    "text": "9. Android - The trouble is you think you have time"
+  },
+  {
+    "category": "android",
+    "text": "10. Life's too short for bad code and bad coffee. ☕️ #DevLife"
+  },
+
+  {
+    "category": "systemdesign",
+    "text": "1. Design for scalability today to avoid headaches tomorrow. 🚀"
+  },
+
+  {
+    "category": "systemdesign",
+    "text": "2. Keep it simple, but scalable. Complexity kills systems. 🔄"
+  },
+  {
+    "category": "systemdesign",
+    "text": "3. System design is like building a skyscraper - start with a solid foundation. 🏗️"
+  },
+  {
+    "category": "systemdesign",
+    "text": "4. Think distributed, act local. Embrace the challenges of distributed systems. 🌐"
+  },
+  {
+    "category": "systemdesign",
+    "text": "5. A system is only as strong as its weakest component. Strengthen your weakest links. 🔗"
+  },
+  {
+    "category": "systemdesign",
+    "text": "6. In system design, elegance lies in simplicity, not complexity. 🎩"
+  },
+  {
+    "category": "systemdesign",
+    "text": "7. Design with failure in mind. Plan for the worst, hope for the best. 💡"
+  },
+  {
+    "category": "systemdesign",
+    "text": "8. The best systems are those that gracefully handle change. Adaptability is key. 🔄"
+  },
+  {
+    "category": "systemdesign",
+    "text": "9. A system is never the sum of its parts its the product of their interaction"
+  },
+  {
+    "category": "systemdesign",
+    "text": "10. Design is not just what it looks like and feels like. Design is how it works."
+  },
+  {
+    "category": "motivation",
+    "text": "1. It takes courage to grow up and become who you really are"
+  },
+  {
+    "category": "motivation",
+    "text": "2. Your self-worth is determined by you. You don't have to depend on someone telling you who you are"
+  },
+  {
+    "category": "motivation",
+    "text": "3. Keep your face always toward the sunshine, and shadows will fall behind you."
+  },
+  {
+    "category": "motivation",
+    "text": "4. Nothing is impossible. The word itself says 'I'm possible!"
+  },
+  {
+    "category": "motivation",
+    "text": "5. Attitude is a little thing that makes a big difference"
+  },
+  {
+    "category": "motivation",
+    "text": "6. To bring about change, you must not be afraid to take the first step. We will fail when we fail to try."
+  },
+  {
+    "category": "motivation",
+    "text": "7. All our dreams can come true, if we have the courage to pursue them."
+  },
+  {
+    "category": "motivation",
+    "text": "8. Don't sit down and wait for the opportunities to come. Get up and make them."
+  },
+  {
+    "category": "motivation",
+    "text": "9. Champions keep playing until they get it right."
+  },
+  {
+    "category": "motivation",
+    "text": "10. I am lucky that whatever fear I have inside me, my desire to win is always stronger."
+  },
+  {
+    "category": "facts",
+    "text": "1. You have to believe in yourself when no one else does."
+  },
+  {
+    "category": "facts",
+    "text": "2. The most important thing is to enjoy your life—to be happy—it’s all that matters."
+  },
+  {
+    "category": "facts",
+    "text": "3. Spread love everywhere you go. Let no one ever come without leaving happier."
+  },
+  {
+    "category": "facts",
+    "text": "4. Be yourself; everyone else is already taken."
+  },
+  {
+    "category": "facts",
+    "text": "5. I can accept failure, everyone fails at something. But I can’t accept not trying."
+  },
+  {
+    "category": "facts",
+    "text": "6. It does not matter how slowly you go, as long as you do not stop."
+  },
+  {
+    "category": "facts",
+    "text": "7. If you can do what you do best and be happy, you are further along in life than most people."
+  },
+  {
+    "category": "facts",
+    "text": "8. You can be everything. You can be the infinite amount of things that people are."
+  },
+  {
+    "category": "facts",
+    "text": "9. When you change your thoughts, remember to also change your world."
+  },
+  {
+    "category": "facts",
+    "text": "10. The more you know who you are, and what you want, the less you let things upset you."
+  },
+  {
+    "category": "life",
+    "text": "1. Nobody is born an expert."
+  },
+  {
+    "category": "life",
+    "text": "2. Life is meant to be lived out loud."
+  },
+  {
+    "category": "life",
+    "text": "3. Unique is good."
+  },
+  {
+    "category": "life",
+    "text": "4. Get out of your own way"
+  },
+  {
+    "category": "life",
+    "text": "5. The only person you have to please is yourself."
+  },
+  {
+    "category": "life",
+    "text": "6. You won't find your future following someone else's roadmap."
+  },
+  {
+    "category": "life",
+    "text": "7. Set high standards for yourself and live up to your own expectations."
+  },
+  {
+    "category": "life",
+    "text": "8. If you listen to the naysayers, you'll never find out what you can really do."
+  },
+  {
+    "category": "life",
+    "text": "9. Don't fast forward through life; you'll miss all the good stuff along the way."
+  },
+  {
+    "category": "life",
+    "text": "10. Take joy in the journey."
+  }
+]
+}
+
+
