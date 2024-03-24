@@ -2,6 +2,7 @@ package com.example.tweetsycomposemvvmhiltnavigationapp.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -37,7 +38,7 @@ import com.example.tweetsycomposemvvmhiltnavigationapp.R
 import com.example.tweetsycomposemvvmhiltnavigationapp.viewmodels.CategoryViewModel
 
 @Composable
-fun CategoryScreen() {
+fun CategoryScreen( onClick:(category:String)->Unit) {
 
     val vm: CategoryViewModel = viewModel()
     val list: State<List<String>> = vm.categories.collectAsState()
@@ -47,14 +48,14 @@ fun CategoryScreen() {
     )
     {
         items(list.value.distinct()) {
-            CategoryItem(it)
+            CategoryItem(it, onClick)
         }
     }
 }
 
 @Preview
 @Composable
-fun CategoryItem(category: String = "2872811783") {
+fun CategoryItem(category: String , onClick:(category:String)->Unit) {
     Box(
         modifier = Modifier
             .padding(4.dp)
@@ -64,7 +65,8 @@ fun CategoryItem(category: String = "2872811783") {
             .paint(
                 painterResource(R.drawable.wave),
                 contentScale = ContentScale.FillBounds
-            ).fillMaxSize(1f),
+            ).fillMaxSize(1f)
+            .clickable { onClick(category) },
         contentAlignment = Alignment.BottomCenter
     ) {
         Text(

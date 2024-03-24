@@ -33,7 +33,7 @@ import com.example.tweetsycomposemvvmhiltnavigationapp.viewmodels.DetailViewMode
 
 @Preview
 @Composable
-fun DetailScreen() {
+fun DetailScreen(category: String) {
     val vm :DetailViewModel = viewModel()
     val list =  vm.tweets.collectAsState()
     LazyColumn() {

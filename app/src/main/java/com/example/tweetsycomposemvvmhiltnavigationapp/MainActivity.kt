@@ -46,9 +46,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    DetailScreen()
+//                    DetailScreen()
 //                    DetailScreenItem("eryiuw eiujid siajx jaqouw wijkax xswk hiwhdk ")
-//                    CategoryScreen()
+                    CategoryScreen{
+//                        DetailScreen(it)
+                    }
 //                    CategoryItem()
 //                    Greeting("Android ")
                 }
