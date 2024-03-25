@@ -11,7 +11,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-@SuppressLint("SuspiciousIndentation")
 @HiltViewModel
 class DetailViewModel @Inject constructor(
     private val repository: TweetsyRepository,
