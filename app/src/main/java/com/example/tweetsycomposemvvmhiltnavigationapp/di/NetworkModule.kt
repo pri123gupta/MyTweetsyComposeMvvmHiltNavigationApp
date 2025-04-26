@@ -1,6 +1,6 @@
 package com.example.tweetsycomposemvvmhiltnavigationapp.di
 
-import com.example.tweetsycomposemvvmhiltnavigationapp.retrofit.TweetsyAPI
+import com.example.tweetsycomposemvvmhiltnavigationapp.retrofit.TweetsyApiInterface
 import com.example.tweetsycomposemvvmhiltnavigationapp.utils.Constants
 import dagger.Module
 import dagger.Provides
@@ -24,7 +24,7 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun providesAPIinterface(retrofit: Retrofit): TweetsyAPI {
-        return retrofit.create(TweetsyAPI::class.java)
+    fun providesAPIinterface(retrofit: Retrofit): TweetsyApiInterface {
+        return retrofit.create(TweetsyApiInterface::class.java)
     }
 }

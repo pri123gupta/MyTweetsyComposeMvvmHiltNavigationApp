@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Headers
 
-interface TweetsyAPI {
+interface TweetsyApiInterface {
 
     @GET("/v3/b/65fdb6a51f5677401f415f9a?meta=false")             //self
     suspend fun getAllTweets(): Response<List<TweetListItem>>

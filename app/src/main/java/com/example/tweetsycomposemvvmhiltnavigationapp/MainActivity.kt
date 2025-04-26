@@ -23,7 +23,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.tweetsycomposemvvmhiltnavigationapp.retrofit.TweetsyAPI
+import com.example.tweetsycomposemvvmhiltnavigationapp.retrofit.TweetsyApiInterface
 import com.example.tweetsycomposemvvmhiltnavigationapp.screens.CategoryScreen
 import com.example.tweetsycomposemvvmhiltnavigationapp.screens.DetailScreen
 import com.example.tweetsycomposemvvmhiltnavigationapp.ui.theme.TweetsyComposeMvvmHiltNavigationAppTheme
@@ -36,13 +36,13 @@ import javax.inject.Inject
 class MainActivity : ComponentActivity() {
 
     @Inject
-    lateinit var tweetsyAPI: TweetsyAPI
+    lateinit var tweetsyApiInterface: TweetsyApiInterface
 
     @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         GlobalScope.launch {
-            val response = tweetsyAPI.getCategories()
+            val response = tweetsyApiInterface.getCategories()
             Log.d("PriyankaGupta", "onCreate: ${response.body()!!.distinct().toString()}")
         }
         setContent {

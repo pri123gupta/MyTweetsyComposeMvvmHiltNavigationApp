@@ -1,12 +1,12 @@
 package com.example.tweetsycomposemvvmhiltnavigationapp.repository
 
 import com.example.tweetsycomposemvvmhiltnavigationapp.models.TweetListItem
-import com.example.tweetsycomposemvvmhiltnavigationapp.retrofit.TweetsyAPI
+import com.example.tweetsycomposemvvmhiltnavigationapp.retrofit.TweetsyApiInterface
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import javax.inject.Inject
 
-class TweetsyRepository @Inject constructor(private val api: TweetsyAPI) {
+class TweetsyRepository @Inject constructor(private val api: TweetsyApiInterface) {
     private val _categories = MutableStateFlow<List<String>>(emptyList())
     val categories: StateFlow<List<String>>
         get() = _categories
